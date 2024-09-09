@@ -23,7 +23,7 @@ void loop()
       digitalWrite(Buzzer, LOW);
       delay(200);
     } 
-    digitalWrite(Ventilador, HIGH);
+    //digitalWrite(Ventilador, HIGH);
     for (int i=0; i <=255; i++)
     {
       analogWrite(Ventilador, i);
